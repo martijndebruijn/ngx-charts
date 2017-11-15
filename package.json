@@ -4,6 +4,9 @@
   "description": "Declarative Charting Framework for Angular2 and beyond!",
   "main": "release/index.js",
   "typings": "release/index.d.ts",
+  "typescript": {
+    "main": "src/index.ts"
+  },
   "scripts": {
     "check": "npm-check --skip-unused",
     "test": "npm run lint && karma start",
@@ -67,7 +70,8 @@
   ],
   "license": "MIT",
   "files": [
-    "release"
+    "release",
+    "src"
   ],
   "bugs": {
     "url": "https://github.com/swimlane/ngx-charts/issues"
